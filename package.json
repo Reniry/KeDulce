@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0-beta1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "build-css": "node-sass –include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   }
 }

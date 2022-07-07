@@ -183,9 +183,9 @@ span {
 }
 
 .button-up:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
   transition: all 700ms ease;
-  border-color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
 
