@@ -4,7 +4,8 @@
 $principal: #ce6d06;
 $borde: 0px;
 $segundario: #ffeedc;
-$navbar: #413831;
+$terciario: #ede9e1;
+$informacion: #413831;
 $navbar-toggler-padding-y: 0em;
 $navbar-toggler-padding-x: 0rem;
 
@@ -22,7 +23,8 @@ $pallete: (
 /////////////////////////////////
 $primary: $principal;
 $secondary: $segundario;
-$info: $navbar;
+$info: $informacion;
+$success: $terciario;
 $enable-shadows:true;
 $btn-padding-y: 1rem;
 $btn-padding-x: 1.8rem;
