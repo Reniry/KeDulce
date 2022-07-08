@@ -1,24 +1,10 @@
 // PAGINA MAIN
 
-@import '__vars'; //Variables
-@import '__pages'; //CSS
+@import 'utilities/vars';         //Variables
+@import 'utilities/mixins';       //Mixins
+@import 'utilities/functions';    //Funciones
+@import 'pages';                  //CSS
+@import 'base/reset.sass';        //Resets
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-body{ 
-    margin:0;
-    padding:0;
-    overflow-x: hidden;
-}
+@import "../node_modules/bootstrap/scss/bootstrap";     //BootStrap
