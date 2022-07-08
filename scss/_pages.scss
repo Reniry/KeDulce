@@ -2,13 +2,18 @@
     .imgLogoSize{
         width:70%;
     } 
+    
+    #ofert{
+        height: 20em;
+    }
+
 }
-@media only screen and (max-width: 1000px) and (min-width: 280px) {
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
     #ofert{
         height: 20em;
     }
 }
-
 
  // Scss
 .text-shadow{
@@ -85,9 +90,16 @@ span{
     margin-top: -20px;
     z-index: 10;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-    height: 17em;
+    height: 16em;
+    
+    .frapu {
+        width: 17%;
+    }
+    
     img{
         position: relative;
+        width: 50%;
+        
     }
 }
 

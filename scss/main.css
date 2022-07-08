@@ -23,8 +23,12 @@
   .imgLogoSize {
     width: 70%;
   }
+
+  #ofert {
+    height: 20em;
+  }
 }
-@media only screen and (max-width: 1000px) and (min-width: 280px) {
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
   #ofert {
     height: 20em;
   }
@@ -101,10 +105,14 @@ span {
   margin-top: -20px;
   z-index: 10;
   box-shadow: 0 0 20px rgb(0, 0, 0);
-  height: 17em;
+  height: 16em;
+}
+#ofert .frapu {
+  width: 17%;
 }
 #ofert img {
   position: relative;
+  width: 50%;
 }
 
 #separador__ribbon {
