@@ -223,4 +223,11 @@ span{
 /* Textarea Contactos */
 .textarea{
     height: 16vh;
+    border-color: $secondary;
+}
+
+#classic{
+    img{
+        height: 1;
+    }
 }
