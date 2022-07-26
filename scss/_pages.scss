@@ -1,0 +1,228 @@
+@media only screen and (max-width: 500px) and (min-width: 280px) {
+    .imgLogoSize{
+        width:70%;
+    } 
+    
+    #ofert{
+        height: 20em;
+    }
+
+}
+
+ // Scss
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn-primary{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.25);
+}
+
+.card-border{
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.02);
+}
+
+/* NAV */
+
+.decoration-navbar{
+    text-decoration: none;
+    border-radius: 20px;
+    border: -1px;
+}
+.decoration-navbar:hover{
+    transform: scale(1.02);
+    transition: all .9s;
+    font-weight: 600;
+    background-color: $clearBrown;
+    box-shadow: 0px 3px 14px -8px rgba(0, 0, 0, .78);
+}
+
+.activo{
+    background: $clearBrown;
+    border-radius: 20px;
+    border: -1px;
+    box-shadow: 0px 3px 14px -8px rgba(0, 0, 0, .78);
+}
+
+.activo:hover{
+    background: none;
+    transform: scale(1.02);
+    transition: all .9s;
+    font-weight: 600;
+    box-shadow: none;
+}
+
+span{
+    font-size: 4.5rem;
+}
+
+/* HERO CAROUSEL */
+
+.gradient{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3) )
+}
+
+/* HERO */
+
+#hero{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(../img/Hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero_services{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(../img/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero_blog{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(../img/blog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero_about{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6) ) ,url(../img/hero-about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero_contact{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(../img/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ribbon{
+    background-color: $informacion;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(45, 37, 30, 0.5) 25px, rgba(45, 37, 30, 0.5) 40px);
+}
+    
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#ofert{
+    background-color: $informacion;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+
+    .frapu {
+        width: 17%;
+    }
+    
+    img{
+        position: relative;
+        width: 50%;
+        
+    }
+}
+
+#separador__ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    .content{
+        width: 150%;
+        height: 150px;
+        margin-left: -25%;
+        border-bottom-left-radius: 99%;
+        border-bottom-right-radius: 99%;
+    }
+}
+
+/* SOBRE NOSOTROS */
+
+#sobre__nosotros{
+    background-repeat: repeat-x;    
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+/* NUESTROS SERVICIOS */
+
+#nuestros__servicios{
+    background-size: cover;
+    @include bg_clearBrown;
+}
+
+/* DONDE ESTAMOS */
+
+#donde__estamos{
+    @include bg_clearBrown;
+}
+
+/* NUESTROS PRODUCTOS */
+
+#products{
+    @include bg_topography;
+}
+
+/* DATOS CAFE */
+
+#datos__cafe{
+    @include bg_topography;
+}
+
+/* FOOTER */
+
+.decoration{
+    text-decoration: none;
+}
+
+.decoration:hover{
+    text-decoration:underline;
+}
+
+/* BOTON SCROLL UP*/
+
+.button-up{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    background: $principal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 4px solid transparent;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.button-up:hover{
+    transform: scale(1.15);
+    transition: all 700ms ease;
+    border-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+
+#classic{
+    img{
+        height: 1;
+    }
+}

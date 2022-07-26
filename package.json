@@ -1,0 +1,22 @@
+{
+  "name": "kedulce",
+  "version": "1.0.0",
+  "description": "Página para la cafeteria KeDulce",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "keywords": ["cafeteria, cafe, dulce, dulces, salado, tostado, rafelbuñol, rafelbunyol"],
+  "author": "Irene Martínez",
+  "license": "ISC",
+
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

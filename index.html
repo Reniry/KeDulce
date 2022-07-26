@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es" class="overflow-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>KeDulce</title>
+    <meta name="keywords" content="cafeteria, cafe, dulce, dulces, salado, tostado, rafelbuñol, rafelbunyol">
+    <meta name="description"
+        content="El mejor café y los mejores dulces. El mejor servicio y trato. ¡Desde siempre siendo la mejor cafeteria de Rafelbuñol!">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Sass -->
+    <link rel="stylesheet" href="scss/main.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/c2096752d1.js" crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- JavaScrip -->
+    <link rel="stylesheet" href="js/script.js">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="hero" id="hero_carousel">
+
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-black">
+                <div class="container-fluid mx-3 mx-sm-5 py-2">
+                    <a class="navbar-brand text-light" href="index.html"> <img src="./img/logo.png" alt="" height="40"
+                            width="200"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon display-2"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto text-center fs-3">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active text-light activo" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-light decoration-navbar" href="html/about.html">About</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-light decoration-navbar" href="html/services.html">Services</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-light decoration-navbar" href="html/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-light decoration-navbar" href="html/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main" id="main">
+            <div class="carousel slide" id="main__slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <img src="img/Hero.jpg" alt="" class="d-block w-100">
+                        <div class="card-img-overlay gradient"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Hero-1.jpg" alt="" class="d-block w-100">
+                        <div class="card-img-overlay gradient"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Hero-2.jpg" alt="" class="d-block w-100">
+                        <div class="card-img-overlay gradient"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <!-- RIBBON -->
+    <div id="ribbon" class="carousel slide justify-content-center align-items-center" data-bs-ride="carousel">
+        <div id="ofert" class="carousel-inner w-50 pl-5 rounded mx-auto carousel-ribbon">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <div class="row align-items-center justify-content-center pt-4 py-sm-5">
+                    <div class="col-sm p-3">
+                        <img src="img/coca-de-yogur.png" class="w-50 mx-auto d-block" alt="">
+                    </div>
+    
+                    <div class="col-sm p-3 pe-lg-5 text-light text-center">
+                        <p class="text-warning h3 fs-1 fw-bolder text-shadow font-family-monospace">LA OFERTA DEL DIA</p>
+                        <h4 class="h2 text-shadow">Coca de yogur</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="row align-items-center justify-content-center pt-4 py-sm-5">
+                    <div class="col-sm p-3">
+                        <img src="img/frappuchino.png" class="mx-auto d-block frapu " alt="">
+                    </div>
+    
+                    <div class="col-sm p-3 pe-lg-5 text-light text-center">
+                        <p class="text-warning h3 fs-1 fw-bolder text-shadow font-family-monospace">CAFÉ DEL DIA</p>
+                        <h4 class="h2 text-shadow">Frappuccino cacao & caramelo</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row align-items-center justify-content-center pt-4 py-sm-4">
+                    <div class="col-sm p-3 ps-5">
+                        <img src="img/tarta-queso.png" class="w-75 p-lg-0 mx-auto d-block" alt="">
+                    </div>
+    
+                    <div class="col-sm p-3 text-light text-center">
+                        <p class="text-warning h3 fs-1 fw-bolder text-shadow font-family-monospace">LO MAS VENDIDO</p>
+                        <h4 class="h2 text-shadow">Tarta de queso</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <button class="carousel-control-prev" type="button" data-bs-target="#ribbon"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next display-1" type="button" data-bs-target="#ribbon"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- SEPARADOR -->
+    <div id="separador__ribbon">
+        <div class="content bg-clearBrown"></div>
+    </div>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="sobre__nosotros" class="bg-softWhite">
+        <div class="row align-items-center mx-5 pt-5" data-aos="fade-down" data-aos-delay="400">
+            <div class="col-12 col-lg">
+                <div class="text-wrapper text-center">
+                    <h6 class="card-title display-2 fw-bold p-3 display-2">Quienes somos</h6>
+                    <p class="text mb-4 display-4 fs-2">
+                        Somos un equipo de fanáticas del cafe y los dulces dedicados a brindar a nuestros clientes la
+                        oportunidad única de probar café y dulces de la más alta calidad</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 py-5">
+                <div class="image-wrapper">
+                    <img src="img/Latte-cropped.jpg" alt="..." width="300" height="400">
+                    <img src="img/croissant.jpg" alt="..." width="300" height="400">
+                    <img src="img/Grano-Cafe-Cropped.jpg" alt="..." width="300" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTROS SERVICIOS -->
+    <section class="" id="nuestros__servicios">
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6 p-5 d-flex align-items-center">
+                    <div class="card-wrapper">
+                        <div class="card-box align-left text-light text-center">
+                            <h4 class="card-title fw-bold display-2 pb-3">Nuestros Servicios</h4>
+                            <p class="fs-3 fw-normal">
+                                Brindamos una gran variedad de servicios a nuestros clientes. Si se te ocurre algo
+                                relacionado con el café, podemos ofrecerlo en nuestra cafetería.</p>
+                            <div class="d-block">
+                                <a class="btn btn-primary btn-lg text-light" href="html/services.html">Sigue leyendo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-light text-center" data-aos="fade-left" data-aos-delay="500"
+                    data-aos-duration="2000">
+                    <div class="item d-flex pt-5">
+                        <div class="icon-box">
+                            <img src="img/icono__coffee__beans.png" alt="">
+                        </div>
+                        <div class="text-box">
+                            <h4 class="icon-title fw-bold display-6">
+                                <strong>Granos de cafe seleccionados</strong>
+                            </h4>
+                            <h5 class="icon-text fs-4 fw-normal">Disfruta del aroma de los granos de café seleccionados
+                                disponibles en nuestra tienda.</h5>
+                        </div>
+                    </div>
+                    <div class="item d-flex pt-5">
+                        <div class="icon-box">
+                            <img src="img/icono__coffee__elite.png" class="primary" alt="">
+                        </div>
+                        <div class="text-box">
+                            <h4 class="icon-title fw-bold display-6">
+                                <strong>Café de élite</strong>
+                            </h4>
+                            <h5 class="icon-text fs-4 fw-normal">Tome un sorbo de nuestro café de élite y deléitese con
+                                los diferentes sabores.</h5>
+                        </div>
+                    </div>
+                    <div class="item d-flex pt-5">
+                        <div class="icon-box">
+                            <img src="img/icon__coffee__flavour.png" class="" alt="">
+                        </div>
+                        <div class="text-box">
+                            <h4 class="icon-title fw-bold display-6">
+                                <strong>Café sabroso</strong>
+                            </h4>
+                            <h5 class="icon-text fs-4 fw-normal">En KeDulce puedes encontrar muchos sabores de café
+                                sabrosos.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonial" class="bg-softWhite">
+        <div class="container p-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h3 class="mb-4 fw-bold display-2">Testimonios</h3>
+                    <p class="mb-4 pb-2 mb-md-5 pb-md-0 fs-5">
+                        Estas son valoraciones que nuestros clientes han enviado recientemente. Son la mejor manera de
+                        obtener más información sobre nuestro nivel de servicio y atención al cliente.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center pb-3">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="img/testimonio1.jpg" class="rounded-circle shadow-1-strong" width="100" height="100"
+                            alt="" />
+                    </div>
+                    <q class="lead my-3 text-muted">
+                        Visité KeDulce la semana pasada durante el día con mi portátil para poder hacer un trabajo y
+                        disfrutar del ambiente de una cafetería. ¡Este lugar fue perfecto! El café era genial, y las
+                        trufas eran ridículamente buenas. Recomiendo este lugar a todo el mundo.
+                    </q>
+                    <hr>
+                    <cite class="font-italic font-weight-normal mb-0">- Anna Morian</cite>
+                </div>
+                <div class="col-md-6 mb-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="img/testimonio2.jpg" class="rounded-circle shadow-1-strong" width="100" height="100"
+                            alt="" />
+                    </div>
+                    <q class="lead my-3 text-muted">
+                        Probé café aquí por primera vez el otro día. La ubicación puede parecer oculta, pero en realidad
+                        es muy fácil encontrar KeDulce en el mapa. Pedí solo un café regular mediano y fue muy bueno. La
+                        señorita que sirvió el café fue muy amable. ¡Definitivamente regresaré!
+                    </q>
+                    <hr>
+                    <cite class="font-italic font-weight-normal mb-0">- Teresa May</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTROS PRODUCTOS -->
+    <section id="products" class="pb-5">
+        <div class="container-md pb-5 g-4">
+            <div class="row pt-5">
+                <h3 class="text-center pb-2 pt-5 fw-bold text-light display-2"> Nuestros Productos</h3>
+                <p class="text-center text-light fs-3 pb-5">Ofrecemos variaciones de café y dulces sabrosas y de alta
+                    calidad.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-6 col-12 col-lg-4 pb-5">
+                    <div class="card w-100 card-border h-100">
+                        <img src="img/Expresso.jpg" class="card-img-top" alt="..." height="325">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-1">Café Expresso</h5>
+                            <p class="card-text fs-4 fw-normal">Una de las variaciones de café más populares hoy en día.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 col-lg-4 pb-5">
+                    <div class="card w-100 card-border h-100">
+                        <img src="img/Capu.jpg" class="card-img-top" alt="..." height="325">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-1">Café Cappuccino</h5>
+                            <p class="card-text fs-4 fw-normal">Esta famosa bebida de café italiano tiene un sabor y
+                                aroma delicados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 col-lg-4 pb-5">
+                    <div class="card w-100 card-border">
+                        <img src="img/croissant.jpg" class="card-img-top" alt="..." height="325">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fs-1">Croissant</h5>
+                            <p class="card-text fs-4 fw-normal">Hecho de manera clásica con masa de hojaldre para que
+                                sea ligero, escamoso y extremadamente jugoso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DONDE ESTAMOS -->
+    <section id="donde__estamos">
+        <div class="container">
+            <div class="text-center text-light">
+                <h3 class="align-center mb-0 fw-bold display-2 p-5">
+                    Encuentranos
+                </h3>
+            </div>
+            <div class="row justify-content-center mt-4 text-dark">
+                <div class="text-warpper col-12 col-md-6">
+                    <div class="card-wrapper d-flex align-center text-white justify-content-center">
+                        <div class="image-wrapper">
+                            <span class="bi bi-signpost"></span>
+                        </div>
+                        <div class="text-wrapper text-center fs-3">
+                            <h6 class="card-title mb-1 display-5 fw-bold">
+                                Dirección
+                            </h6>
+                            <hr>
+                            <address class="mbr-text">
+                                Carrer Comunitat Valenciana, 10, bajo izquierda, 46138 Rafelbunyol, Valencia
+                            </address>
+                        </div>
+                    </div>
+                    <div class="card-wrapper d-flex align-center justify-content-center text-white my-5">
+                        <div class="image-wrapper">
+                            <span class="bi bi-signpost"></span>
+                        </div>
+                        <div class="text-wrapper text-center">
+                            <h6 class="card-title mb-1 display-5 fw-bold">
+                                Horario
+                            </h6>
+                            <hr>
+                            <dl class="fs-3">
+                                <dt>Lunes - Viernes</dt>
+                                <dd>7:30 - 14:00 <br>17:00 - 19:30</dd>
+                                <dt>Sabado - Domingo</dt>
+                                <dd>8:00 - 14:00</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-wrapper col-12 col-md-6">
+                    <div class="google-map mb-5">
+                        <iframe class="img-fluid"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12299.294029121984!2d-0.336855!3d39.5861279!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24bf89ef6045fb65!2sKedulce!5e0!3m2!1ses!2ses!4v1655662305170!5m2!1ses!2ses"
+                            style="border:0; height: 35em; width: 40em;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOTON SCROLL UP -->
+    <div class="button-up" id="button-up">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-brown">
+        <div class="container p-4">
+            <div class="row text-center">
+                <div class="col-12 col-lg-4 col-md-4 mb-4 text-light">
+                    <h5 class="mb-3 fw-bold fs-2">Páginas</h5>
+                    <hr>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="index.html" class="text-light fs-5 decoration">Home</a>
+                        </li>
+                        <li>
+                            <a href="html/about.html" class="text-light fs-5 decoration">About</a>
+                        </li>
+                        <li>
+                            <a href="html/services.html" class="text-light fs-5 decoration">Services</a>
+                        </li>
+                        <li>
+                            <a href="html/blog.html" class="text-light fs-5 decoration">Blog</a>
+                        </li>
+                        <li>
+                            <a href="html/contact.html" class="text-light fs-5 decoration">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 mb-4 text-light">
+                    <h5 class="mb-3 fw-bold fs-2">Descripción</h5>
+                    <hr>
+                    <p class="fs-5">
+                        KeDulce es un lugar acogedor donde los amigos se reúnen para compartir café, dulces y tiempo
+                        juntos.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 mb-4 text-light">
+                    <h5 class="mb-1 fw-bold fs-2">Redes Sociales</h5>
+                    <hr>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://www.linkedin.com/in/irene-mart%C3%ADnez-david-b68471243/"
+                                class="text-light fs-5 decoration"> <i class="fa-brands fa-linkedin fs-4"></i>
+                                Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/_reniry" class="text-light fs-5 decoration"><i
+                                    class="fa-brands fa-instagram fs-4"></i> Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Reniry" class="text-light fs-5 decoration"><i
+                                    class="fa-brands fa-github fs-4"></i> GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/_Reniry" class="text-light fs-5 decoration"><i
+                                    class="fa-brands fa-twitter fs-4"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-light p-2 pt-4" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p>&copy; 2022 KeDulce - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

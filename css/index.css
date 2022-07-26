@@ -1,0 +1,166 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mifuente';
+    src: url("../fonts/Font-Jaapokki/Regular/Jaapokki.otf") format("opentype");
+}
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{ 
+    margin:0;
+    padding:0;
+}
+
+#ribbon{
+    background-color: #413831;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(45, 37, 30, 0.5) 25px, rgba(45, 37, 30, 0.5) 40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#ofert{
+    background-color: #413831;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#ofert img{
+    position: relative;
+    margin-top: -30px;
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+#separador__ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador__ribbon .content{
+    background-color: #8c6344;
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 99%;
+    border-bottom-right-radius: 99%;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#products{
+    background: #413831;
+    background: url("../img/topography.svg"), linear-gradient(0deg, #5c5855 0%, #413831 57%);
+    background-repeat: repeat-x; 
+    background-size: cover;   
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+#datos__cafe{
+    background: #413831;
+    background: url("../img/topography.svg"), linear-gradient(0deg, #5c5855 0%, #413831 57%);
+    background-repeat: repeat-x;    
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+.font-size-tittle{
+    font-size: 60px;
+}
+
+#sobre__nosotros{
+    background: #ede9e1;
+    background-repeat: repeat-x;    
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+
+#nuestros__servicios{
+    background-color: #8c6344;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+}
+
+.fondo{
+    background-color: #ce6d06;
+}
+
+#testimonial{
+    background: #ede9e1;
+}
+
+#donde__estamos{
+    background-color: #8c6344;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+span{
+    font-size: 4.5rem;
+}
+
+footer{
+    background-color: #413831
+}
+
+#hero{
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(../img/Hero.jpg);
+    background-size: cover;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#nuestros__servicios__services{
+    background-color: rgb(255, 238, 220);
+}
+
+#contactanos{
+    background-color: rgb(255, 238, 220);
+} */

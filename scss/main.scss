@@ -1,0 +1,10 @@
+// PAGINA MAIN
+
+@import 'base/reset.sass';        //Resets
+@import 'utilities/vars';         //Variables
+@import 'utilities/mixins';       //Mixins
+@import 'utilities/functions';    //Funciones
+@import 'pages';                  //CSS
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";     //BootStrap

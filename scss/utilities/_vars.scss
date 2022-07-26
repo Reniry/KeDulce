@@ -1,0 +1,36 @@
+/////////////////////////////////
+// 1. Variables
+/////////////////////////////////
+$principal: #ce6d06;
+$segundario: #ffeedc;
+$terciario: #ede9e1;
+$informacion: #413831;
+$clearBrown: #8c6344;
+$borde: 0px;
+
+/////////////////////////////////
+// 2. Modificando variables de Bootstrap
+/////////////////////////////////
+$primary: $principal;
+// $secondary: $segundario;
+// $info: $informacion;
+// $success: $terciario;
+$enable-shadows:true;
+$btn-padding-y: 1rem;
+$btn-padding-x: 1.8rem;
+$btn-border-radius: 1.5rem;
+$card-border-width: $borde;
+$navbar-toggler-padding-y: 0em;
+$navbar-toggler-padding-x: 0rem;
+
+
+/////////////////////////////////
+// Maps
+/////////////////////////////////
+$colors:(
+      'orange': $principal,
+      'semiWhite': $segundario,
+      'softWhite': $terciario,
+      'brown': $informacion,
+      'clearBrown': $clearBrown,
+);
